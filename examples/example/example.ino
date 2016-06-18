@@ -17,10 +17,14 @@ void setup() {
     Serial.println("");
     Serial.println("Starting...");
 
+    // enable debug qrcode
+    // qrcode.debug();
+
+    // Initialize QRcode display using library
     qrcode.init();
 
     // create qrcode
-    qrcode.create("Hello World.");
+    qrcode.create("Hello world.");
 
 }
 
