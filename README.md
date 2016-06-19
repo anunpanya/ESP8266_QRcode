@@ -12,4 +12,4 @@ Open Library Manager (menu Sketch > Include Library > Manage Libraries…) then 
 - Open Arduino IDE, try examples of ESP8266 QRcode library
 
 ## Display example
-![qrcode](./src/image/qrcode.jpg)
+![qrcode](src/img/qrcode.JPG?raw=true)
