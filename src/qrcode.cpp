@@ -1,8 +1,6 @@
 #include <Arduino.h>
 #include "qrcode.h"
 #include "qrencode.h"
-#include <Wire.h>
-#include "SSD1306.h"
 
 int offsetsX = 42;
 int offsetsY = 10;
@@ -19,7 +17,7 @@ void QRcode::init(){
 		Serial.println("QRcode init");
 
 	display->init();
-    display->flipScreenVertically();
+  display->flipScreenVertically();
 	display->setColor(WHITE);
 }
 

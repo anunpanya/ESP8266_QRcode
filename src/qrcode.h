@@ -1,4 +1,4 @@
-
+#include "OLEDDisplay.h"
 
 class QRcode
 {
