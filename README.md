@@ -13,5 +13,3 @@ Open Library Manager (menu Sketch > Include Library > Manage Libraries…) then 
 
 ## Display example
 ![qrcode](src/img/qrcode.JPG?raw=true)
-
----
