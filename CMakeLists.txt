@@ -1,0 +1,4 @@
+set(COMPONENT_ADD_INCLUDEDIRS src)
+set(COMPONENT_PRIV_REQUIRES esp8266-oled-ssd1306)
+set(COMPONENT_SRCDIRS src)
+register_component()
