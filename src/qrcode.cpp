@@ -44,7 +44,15 @@ void QRcode::screenwhite(){
 	display->fillRect(0, 0, screenwidth, screenheight);
 	display->display();
 }
-
+void QRcode::align(QRCODE_ALIGN mode){
+  if (mode == ALIGN_LEFT){
+    offsetsX = 10;
+  } else if (mode == ALIGN_RIGHT){
+    offsetsX = 74;
+  } else {
+    offsetsX = 42;
+  }
+}
 void QRcode::create(String message) {
 
   // create QR code
