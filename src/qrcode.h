@@ -1,5 +1,9 @@
 #include "OLEDDisplay.h"
-
+enum QRCODE_ALIGN {
+  ALIGN_CENTER = 0,
+  ALIGN_LEFT = 1,
+  ALIGN_RIGHT = 2
+};
 class QRcode
 {
 	private:
@@ -13,4 +17,5 @@ class QRcode
 		void debug();
 		void screenwhite();
 		void create(String message);
+		void align(QRCODE_ALIGN mode);
 };
